@@ -11,7 +11,7 @@ export class AuthControler {
   signup(@Body() user: Iuser) {
    
     console.log(user)
-    return this.authService.signup()
+    return this.authService.signup(user);
   }
 
   @Post('signin')
