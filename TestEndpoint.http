@@ -6,4 +6,4 @@ POST  http://127.0.0.1:3000/auth/signin
 POST http://127.0.0.1:3000/auth/signup
 content-type: application/json
 
-{"firstname":"mohamed","lastname":"ayman","password":"asd","email": "a@a.com","id":5}
+{"firstname":"mohamed","lastname":"ayman","password":"asd","email": "aa@a.com","id":5}
